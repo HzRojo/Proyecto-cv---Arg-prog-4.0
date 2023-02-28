@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img\silueta-de-estrella-negra.png"/>
+    <title>Proyecto: CV</title>
+</head>
+<body>
+    <header><h1 class="tituloprincipal">Proyecto: Curriculum vitae</h1></header>
+    <hr class="interlineado"></hr>
+    <!--Sobre mí-->
+    <h2 class="tituloscentrados">Sobre mí</h2>
+    <section class="sobremi-cv"> <div> <img src="img\profile.jpg" alt="pic-profile" class="picpro">
+        <p class="sobremi-texto"> Ultrices gravida dictum fusce ut placerat orci. In mollis nunc sed id semper risus in hendrerit gravida. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Sed sed risus pretium quam vulputate dignissim suspendisse. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Tristique risus nec feugiat in. Viverra nam libero justo laoreet sit. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Interdum velit laoreet id donec ultrices. Non nisi est sit amet facilisis magna etiam tempor orci.Sed viverra tellus in hac habitasse platea. Habitasse platea dictumst quisque sagittis purus sit amet.</p>
+    </div></section>
+<!--Información personal-->
+    <h2 class="tituloscentrados"> Información personal</h2>
+    <button type="menu" id="btninfoM"  class="botonmostrar" onclick="mostrarInfo();">˅</button><button class="botonocultar" id="btninfoO"onclick="ocultarInfo();">˄</button>
+    
+    <section class="infoper-cv" id="infoper-cv">
+        <div>
+            <ul>
+                <li><h4>Nombre: Julio Y. Runge</h4></li><br>
+                <li><h4>Edad: 33</h4><br></li>
+                <li><h4>Gender: Male</h4><br></li>
+                <li><h4>Fecha de Nac: Agosto 20,1990</h4><br></li>
+                <li><h4>Oficio: Bachelor of Education</h4><br></li>
+                <li><h4>Domicilio: 387 Seneca Trail  C</h4><br></li>
+                <li><h4>Edo./Prov.: Nueva Escocia País:Canada</h4><br></li>
+                <li><h4>Correo: byrunge24@yopmail.com</h4><br></li>
+                <li><h4>Teléfono: +11(333)-8888115</h4><br></li>
+            </ul>
+    </div>
+</section>
+
+<!--Experiencia laboral-->
+    <h2 class="tituloscentrados">Experiencia laboral</h2>
+    <button type="menu" id="btnexpM"  class="botonmostrar" onclick="mostrarExp();">˅</button><button class="botonocultar" id="btnexpO"onclick="ocultarExp();">˄</button>
+
+    <section class="explab-cv" id="explab-cv">
+        <div>
+             <h3 class="explab-tit">Responsable de recursos humanos | Coca Cola</h3>
+             <h3 class="explab-summ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+             <h3 class="explab-tit">Project Manager | Ogilvy</h3>
+             <h3 class="explab-summ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+        </div>
+    </section>
+
+<!--Lenguajes-->
+    <h2 class="tituloscentrados">Lenguajes</h2>
+    <button type="menu" id="btnlenM"  class="botonmostrar" onclick="mostrarLen();">˅</button><button class="botonocultar" id="btnlenO"onclick="ocultarLen();">˄</button>
+    
+    <section class="leng-cv" id="len-cv">
+        <div>
+            <ul>
+                <li><h3>Español <span class="label label-success ng-scope" ng-if="lang.level == 5">Nativo</span></h3></li>
+                <li><h3>Inglés <span class="label label-primary ng-scope" ng-if="lang.level == 4">Avanzado</span></h3></li>
+                <li><h3>Chino <span class="label label-danger ng-scope" ng-if="lang.level == 1">Elemental</span></h3></li>
+           </ul>
+        </div>
+    </section>
+
+<!--Educación-->
+    <h2 class="tituloscentrados">Educación</h2>
+    <button type="menu" id="btneduM"  class="botonmostrar" onclick="mostrarEdu();">˅</button><button class="botonocultar" id="btneduO"onclick="ocultarEdu();">˄</button>
+    
+    <section class="edu-cv" id="edu-cv">
+        <h3 class="edu-tit">University of road runners catchers</h3>
+        <h4 class="edu-summ">road runners , Master's degree (23/04/2005 to 23/04/2008) <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Bibendum est ultricies integer quis auctor elit sed. Vestibulum mattis ullamcorper velit sed ullamcorper. In mollis nunc sed id semper risus. Eget dolor morbi non arcu risus. Adipiscing tristique risus nec feugiat.</h4>
+    </section>
+
+<!--Habilidades-->
+    <h2 class="tituloscentrados">Habilidades</h2>
+    <button type="menu" id="btnhabM"  class="botonmostrar" onclick="mostrarHab();">˅</button><button class="botonocultar" id="btnhabO"onclick="ocultarHab();">˄</button>
+
+    <div class="habilidades" id="hab-cv">
+        <h3 class="hab1">HTML</h3>
+        <div class="container">
+           <div class="skills html">90%</div>
+        </div>  
+         <h3 class="hab2">CSS</h3>
+         <div class="container">
+            <div class="skills css">70%</div>
+         </div> 
+             <h3 class="hab3">JavaScript</h3>
+             <div class="container">
+                <div class="skills javascript">65%</div>
+          </div> 
+      </div> 
+
+<!--Contacto-->
+    <h2 class="tituloscentrados">Contacto</h2>
+    <button type="menu" id="btncontM"  class="botonmostrar" onclick="mostrarCont();">˅</button><button class="botonocultar" id="btncontO"onclick="ocultarCont();">˄</button>
+    
+    <footer>
+            <section class="cont-cv" id="cont-cv">
+                <a  href="https://www.linkedin.com/in/usuario-ficticio-b2649339/?originalSubdomain=mx" target="_blank"><img class="imgcont" src="img\linkedin.png"></a>
+                <a  href="form-correo.html" target="_blank"><img class="imgcont" src="img\correo.png"> </a>
+                <a  href="https://github.com/session" target="_blank"><img class="imgcont" src="img\github.png"> </a>
+                <a  href="https://www.reddit.com/es/" target="_blank"><img class="imgcont" src="img\reddit.png"></a>
+            </section>
+        </section>
+    </footer>
+
+    <script src="js\function.js"></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img\silueta-de-estrella-negra.png"/>
+    
+    <title>Escribime!</title>
+</head>
+<body>
+    <form action="" method="get" class="formulario">
+        <ul>
+            <li>
+                <label class="edu-tit" for="nombre">Nombre y apellido: </label>
+                <input class="cajaform" type="text" id="name" name="nombre" placeholder="Ingresá tu nombre">
+            </li><br>
+            
+            <li>
+                <label class="edu-tit" for="email">Correo electrónico: </label>
+                <input type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico">
+            </li><br>
+    
+            <li>
+                <label class="edu-tit" for="consulta">Consulta:</label>
+                <textarea class="edu-summ" name="consulta" id="consulta" cols="30" rows="10" placeholder="Enviame tu consulta"></textarea>
+            </li><br>
+            <button class="edu-tit" type="Enviar" id="botoncito" >Enviar!</button>
+        </ul>
+    </form>
+
+    <script src="js\function.js"></script>
+</body>
+</html>

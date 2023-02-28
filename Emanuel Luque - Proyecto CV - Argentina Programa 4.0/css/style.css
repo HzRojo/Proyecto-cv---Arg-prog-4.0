@@ -1,0 +1,314 @@
+/*Títulos*/
+.tituloprincipal{
+    text-align: center;
+    margin: 5% 5% 1% 5%; 
+}
+
+.tituloscentrados{
+    text-align: center;
+    margin: 5% 5% 1% 5%;
+    text-decoration: overline;
+}
+
+.interlineado{ 
+    text-align: center; 
+}
+*{
+    background-color: #FEF5EF;
+    color: #584b53 ;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Botones*/
+.botonocultar{
+    margin: 0 0 0 50%;
+    position:center;
+    display: inline-block;
+    color: #584b53 (88, 75, 83); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 50%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:bold; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-color: #d6e3f8; 
+    box-shadow: rgba(0, 0, 0, 0) 5px 5px 15px 5px; 
+    border: 1px inset rgb(88, 75, 83); 
+    /*display: inline-block;*/
+}
+    .myButton:hover {
+    background: #E4BB97; }
+    .myButton:active {
+    background: #FFD1A9; 
+}
+
+.botonmostrar{
+    margin: 0 0 2% 50%;
+    position: center;
+    display: none;
+    color: #584b53 (88, 75, 83); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 50%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:bold; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-color: #d6e3f8; 
+    box-shadow: rgba(0, 0, 0, 0) 5px 5px 15px 5px; 
+    border: 1px inset rgb(88, 75, 83); 
+    
+}
+
+/*Sobre mí*/
+.sobremi-cv{
+    column-count: 2;  
+    text-align: justify;
+    font-size: larger;}
+
+
+.picpro {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        /*margin: 0% 0% 0% 25%;*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(214,227,248,0.89); 
+        box-shadow: 5px 5px 15px 5px rgba(214,227,248,0.89);
+    }
+
+.sobremi-texto{
+    margin: 0% 25% 0% 0%;    
+}
+
+/*Información personal*/
+.infoper-cv{
+    column-count: 3;
+    align-items: center;
+    display: block; 
+    margin: 2% 5% 0 5%;
+}
+
+li{
+    color: #9D5C63;
+ }
+
+/*Experiencia laboral*/
+
+.explab-cv{
+    display: block;
+    column-count: 1;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.explab-tit{
+    border-width: 2px;
+   border-left-style: ridge;
+   border-right-style: ridge;
+   border-top-style: ridge;
+   border-color: #A76D60;
+   background-color: #E0D0C1;
+   margin: 0%;
+}
+
+.explab-summ{
+    border-width: 2px;
+    border-style: ridge;
+   border-color: #A76D60;
+   margin: 0%;
+}
+
+/*Lenguajes*/
+.leng-cv{
+    display: block;
+    column-count: 3;
+    align-items: center;
+    margin: 2% 0% 0% 5%;     
+} 
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-success {
+    background-color: #584B53;
+}
+
+.label-danger {
+    background-color: #E4BB97;
+}
+.label-primary {
+    background-color: #9D5C63;
+}
+
+
+/*Educación*/
+
+.edu-cv{
+    display: block;
+    column-count: 1;  
+    text-align: center;
+    margin: 2% 5% 0 5%;
+}
+
+.edu-tit{
+    border-width: 2px;
+   border-left-style: ridge;
+   border-right-style: ridge;
+   border-top-style: ridge;
+   border-color: #A76D60;
+   background-color: #E0D0C1;
+   margin: 0%;
+}
+
+.edu-summ{
+    border-width: 2px;
+    border-style: ridge;
+   border-color: #A76D60;
+   margin: 0%;
+}
+
+/*Habilidades*/
+
+.habilidades{
+    display: block;
+    border-width: 2px;
+    border-style: ridge;
+   border-color: #A76D60;
+   margin: 2% 5% 5% 5%;
+   
+}
+
+.hab1{    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-width: 2px;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-top-style: ridge;
+    border-color: #A76D60;
+    background-color: #E0D0C1;
+    margin: 0%;
+}
+
+.hab2{    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-width: 2px;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-top-style: ridge;
+    border-color: #A76D60;
+    background-color: #E0D0C1;
+    margin: 0%;
+}
+
+.hab3{  
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;  
+    border-width: 2px;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-top-style: ridge;
+    border-color: #A76D60;
+    background-color: #E0D0C1;
+    margin: 0%;
+}
+
+.container{
+    margin: 0%;
+    background-color: #ddd;
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0%;
+    }
+
+.html{
+    background-color: #584B53;
+    animation: fillhtml 5s forwards;
+}
+
+.css{
+    background-color: #9D5C63;
+    animation: fillcss 5s forwards;
+}
+
+.javascript{
+    background-color: #E4BB97;
+    animation: filljavascript 5s forwards;
+}
+
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes filljavascript{
+    0%{width: 0;}
+    100%{width: 65%;}
+}
+/*Contacto*/
+.cont-cv{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.imgcont{
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    margin: 0% 0% 80% 25%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    margin: 5%;
+}
+
+button#botoncito{
+    margin-left: 36%;
+}
+
+.edu-tit{
+    color: #584b53;
+    font-weight: bold;
+    font-size: small;
+    }
